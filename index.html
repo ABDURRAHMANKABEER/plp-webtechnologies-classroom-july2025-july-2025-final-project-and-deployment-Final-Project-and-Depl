@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Home — My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="index.html">MyPortfolio</a>
+                <button id="navToggle" aria-expanded="false" aria-controls="mainNav" class="nav-toggle">☰</button>
+                <nav id="mainNav" class="nav">
+                    <ul>
+                        <li><a href="index.html" aria-current="page">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container hero-inner">
+                    <h1>Hi — I'm Abdurrahman<span class="accent">.</span></h1>
+                    <p class="lead">I build reliable embedded & AI projects. Explore my work and get in touch.</p>
+                    <p>
+                        <a class="btn" href="services.html">See Projects</a>
+                        <a class="btn ghost" href="assets/downloads/resume.pdf" download>Download Resume</a>
+                    </p>
+                </div>
+            </section>
+
+            <section class="cards container" id="featured">
+                <h2>Featured Projects</h2>
+                <div class="grid">
+                    <article class="card reveal">
+                        <img src="assets/images/project1.jfif" alt="Project 1 screenshot" />
+                        <h3>Predictive Maintenance</h3>
+                        <p>ML model for early fault detection in equipment.</p>
+                        <a class="card-link" href="services.html">Learn more →</a>
+                    </article>
+
+                    <article class="card reveal">
+                        <img src="assets/images/project2.jfif" alt="Project 2 screenshot" />
+                        <h3>Smart Fan Control</h3>
+                        <p>Embedded control + AI for energy-efficient cooling.</p>
+                        <a class="card-link" href="services.html">Learn more →</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© <span id="year"></span> Abdurrahman Kabir — <a href="contact.html">Contact</a></p>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

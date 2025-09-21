@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Services — My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- header -->
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="index.html">MyPortfolio</a>
+                <button id="navToggle" aria-expanded="false" aria-controls="mainNav" class="nav-toggle">☰</button>
+                <nav id="mainNav" class="nav">
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" aria-current="page">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="services reveal">
+                <h1>Services & Projects</h1>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Predictive Maintenance</h3>
+                        <p>Data preprocessing, model training, deployment pipeline.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Embedded Control</h3>
+                        <p>Microcontroller firmware, sensors, control loops.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Web Frontend</h3>
+                        <p>Responsive UI, React + Redux projects, REST APIs.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© <span id="year3"></span> Abdurrahman Kabir</p>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
