@@ -5,8 +5,7 @@
 ---
 
 ## 🔗 Live
-Live URL: https://<your-username>.github.io/<repo-name>/  
-*(or Netlify / Vercel link)*
+[Live Demo](https://final-project-kappa-jet-29.vercel.app/)
 
 ---
 
